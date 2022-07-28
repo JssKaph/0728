@@ -5,9 +5,9 @@ public class Practice3 {
 		int cnt = 0;
 		int cnt1 = 1;
 		for(int i = 65; i<=90; i++) {
-			if(cnt1 % 2 ==0) 
-				System.out.print((char)(i+32) + "\t");
-			else System.out.print((char)(i) + "\t");	
+			if(cnt1 % 2 == 0) 
+				System.out.print((char)(i+32) + "\t"); // 소문자 출력
+			else System.out.print((char)(i) + "\t");	 // 대문자 출력
 			cnt++;
 			if(cnt % 5 ==0)	{
 				System.out.println();
