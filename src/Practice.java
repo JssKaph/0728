@@ -11,7 +11,7 @@ public class Practice {
 		int month = sc.nextInt();
 		sc.nextLine();
 	
-		if(month == 2) 
+		if(month == 2) //2월이라면
 		{
 			if(year % 400 ==0 || (year % 4 ==0 && year / 100 != 0)) // 윤년이라면
 			{ 

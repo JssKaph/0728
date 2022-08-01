@@ -14,6 +14,7 @@ public class Practice3 {
 //				cnt1++;
 //			}
 //		}
+		
 		Scanner sc = new Scanner(System.in);
 		Client jimin = new Client(); // class 생성
 		System.out.print("이름을 입력 하십시오 : ");
